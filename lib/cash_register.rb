@@ -19,7 +19,7 @@ class CashRegister
     @items << item
     # quantity.times do 
     #   @items << item
-    end
+    # end
     @price = price
     @quantity = quantity 
     @total += (price * quantity)
